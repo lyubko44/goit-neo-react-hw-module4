@@ -31,7 +31,7 @@ function ImageModal({ isOpen, onRequestClose, image }) {
             style={customStyles}
         >
             <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', overflow: 'hidden' }}>
-                <img src={image.src} alt={image.alt || 'Image'} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', display: 'block' }} />
+                <img src={image.urls.regular} alt={image.alt_description || 'Image'} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', display: 'block' }} />
             </div>
         </Modal>
     );
