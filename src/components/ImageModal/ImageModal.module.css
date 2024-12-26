@@ -1,0 +1,14 @@
+.image-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.image-modal-content {
+    max-width: 90%;
+    max-height: 90%;
+}

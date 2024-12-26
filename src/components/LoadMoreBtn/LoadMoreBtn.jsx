@@ -1,6 +1,8 @@
+import styles from './LoadMoreBtn.module.css';
+
 function LoadMoreBtn({ onClick }) {
     return (
-        <button onClick={onClick} className="load-more-btn">
+        <button onClick={onClick} className={styles.loadMoreBtn}>
             Load more
         </button>
     );
